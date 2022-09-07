@@ -6,9 +6,7 @@ module.exports = {
   entry: path.join(__dirname, "src", "index.js"),
   output: {
     path: path.resolve(__dirname, 'dist'),
-    //filename: 'bundle.js',
   },
-
   devServer: {
     host: 'localhost',
     port: 8080,
@@ -73,5 +71,4 @@ module.exports = {
     }),
   ],
   devtool: 'inline-source-map',
-  
 }
