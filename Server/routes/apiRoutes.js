@@ -13,6 +13,4 @@ router.post('/signup', apiController.addUser, apiController.verifyUser, (req, re
     return res.status(200).json(res.locals.data).redirect('/app')
 })
 
-//users, login, books, reviews,
-
 module.exports = router
